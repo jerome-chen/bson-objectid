@@ -3,7 +3,7 @@
 // Definitions by: Marcel Ernst <https://www.marcel-ernst.de>
 
 export = ObjectID;
-
+declare const Buffer;
 declare class ObjectID {
     static createFromTime(time: number): ObjectID;
     static createFromHexString(hexString: string): ObjectID;
